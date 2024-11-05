@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shriyasingh/CLionProjects/group_project_ca/utest-imgaos
+# Install script for directory: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-imgaos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

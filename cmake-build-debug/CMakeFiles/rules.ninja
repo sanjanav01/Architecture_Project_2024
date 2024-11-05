@@ -175,7 +175,7 @@ rule CXX_EXECUTABLE_LINKER__utest-common_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

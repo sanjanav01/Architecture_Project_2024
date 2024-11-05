@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src
+# Install script for directory: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

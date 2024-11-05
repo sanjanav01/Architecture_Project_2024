@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(gsl-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/microsoft/GSL" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v4.0.0" "GIT_SHALLOW" "ON"
-                    SOURCE_DIR          "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src"
-                    BINARY_DIR          "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build"
+                    SOURCE_DIR          "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src"
+                    BINARY_DIR          "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

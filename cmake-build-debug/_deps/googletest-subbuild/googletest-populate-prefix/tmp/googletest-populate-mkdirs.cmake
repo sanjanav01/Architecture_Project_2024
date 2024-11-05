@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

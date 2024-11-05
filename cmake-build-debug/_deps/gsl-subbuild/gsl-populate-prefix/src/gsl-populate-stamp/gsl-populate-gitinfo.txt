@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake;-P;/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-subbuild/gsl-populate-prefix/tmp/gsl-populate-gitclone.cmake
-source_dir=/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src
-work_dir=/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps
+command=/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake;-P;/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-subbuild/gsl-populate-prefix/tmp/gsl-populate-gitclone.cmake
+source_dir=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src
+work_dir=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps
 repository=https://github.com/microsoft/GSL
 remote=origin
 init_submodules=TRUE

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src
+# Install script for directory: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include/cmake_install.cmake")
+  include("/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include/cmake_install.cmake")
 endif()
 

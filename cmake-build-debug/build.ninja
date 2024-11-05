@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/
+cmake_ninja_workdir = /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/
 
 #############################################
 # Utility command for test
 
 build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build test: phony CMakeFiles/test.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -68,7 +68,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -86,7 +86,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -98,7 +98,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -119,7 +119,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -127,7 +127,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for test
 
 build _deps/googletest-build/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -139,7 +139,7 @@ build _deps/googletest-build/test: phony _deps/googletest-build/CMakeFiles/test.
 # Utility command for edit_cache
 
 build _deps/googletest-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -150,7 +150,7 @@ build _deps/googletest-build/edit_cache: phony _deps/googletest-build/CMakeFiles
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -168,7 +168,7 @@ build _deps/googletest-build/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -180,7 +180,7 @@ build _deps/googletest-build/install: phony _deps/googletest-build/CMakeFiles/in
 # Utility command for install/local
 
 build _deps/googletest-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -192,7 +192,7 @@ build _deps/googletest-build/install/local: phony _deps/googletest-build/CMakeFi
 # Utility command for install/strip
 
 build _deps/googletest-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -201,7 +201,7 @@ build _deps/googletest-build/install/strip: phony _deps/googletest-build/CMakeFi
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -213,12 +213,14 @@ build _deps/googletest-build/install/strip: phony _deps/googletest-build/CMakeFi
 
 build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+build _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1   -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock/include -I/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock/include -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -234,8 +236,9 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug _deps/googletest-bu
   OBJECT_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmockpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgmock.a
-  TARGET_PDB = gmock.a.dbg
+  TARGET_PDB = bin/libgmockpdb_debug_postfix-NOTFOUND.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gmock_main
@@ -246,12 +249,14 @@ build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug _deps/googletest-bu
 
 build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+build _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1   -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -267,15 +272,16 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug _deps/goo
   OBJECT_DIR = _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgmock_main.a
-  TARGET_PDB = gmock_main.a.dbg
+  TARGET_PDB = bin/libgmock_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 #############################################
 # Utility command for test
 
 build _deps/googletest-build/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -287,7 +293,7 @@ build _deps/googletest-build/googlemock/test: phony _deps/googletest-build/googl
 # Utility command for edit_cache
 
 build _deps/googletest-build/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -298,7 +304,7 @@ build _deps/googletest-build/googlemock/edit_cache: phony _deps/googletest-build
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -316,7 +322,7 @@ build _deps/googletest-build/googlemock/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -328,7 +334,7 @@ build _deps/googletest-build/googlemock/install: phony _deps/googletest-build/go
 # Utility command for install/local
 
 build _deps/googletest-build/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -340,7 +346,7 @@ build _deps/googletest-build/googlemock/install/local: phony _deps/googletest-bu
 # Utility command for install/strip
 
 build _deps/googletest-build/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/googlemock/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -349,7 +355,7 @@ build _deps/googletest-build/googlemock/install/strip: phony _deps/googletest-bu
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -361,12 +367,14 @@ build _deps/googletest-build/googlemock/install/strip: phony _deps/googletest-bu
 
 build cmake_object_order_depends_target_gtest: phony || .
 
-build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+build _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1   -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -I/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -382,8 +390,9 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug _deps/googletest-bu
   OBJECT_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtestpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgtest.a
-  TARGET_PDB = gtest.a.dbg
+  TARGET_PDB = bin/libgtestpdb_debug_postfix-NOTFOUND.pdb
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target gtest_main
@@ -394,12 +403,14 @@ build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug _deps/googletest-bu
 
 build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
 
-build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+build _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1   -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 # =============================================================================
@@ -415,15 +426,16 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug _deps/goo
   OBJECT_DIR = _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = lib/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
   TARGET_FILE = lib/libgtest_main.a
-  TARGET_PDB = gtest_main.a.dbg
+  TARGET_PDB = bin/libgtest_mainpdb_debug_postfix-NOTFOUND.pdb
 
 
 #############################################
 # Utility command for test
 
 build _deps/googletest-build/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -435,7 +447,7 @@ build _deps/googletest-build/googletest/test: phony _deps/googletest-build/googl
 # Utility command for edit_cache
 
 build _deps/googletest-build/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -446,7 +458,7 @@ build _deps/googletest-build/googletest/edit_cache: phony _deps/googletest-build
 # Utility command for rebuild_cache
 
 build _deps/googletest-build/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -464,7 +476,7 @@ build _deps/googletest-build/googletest/list_install_components: phony
 # Utility command for install
 
 build _deps/googletest-build/googletest/CMakeFiles/install.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -476,7 +488,7 @@ build _deps/googletest-build/googletest/install: phony _deps/googletest-build/go
 # Utility command for install/local
 
 build _deps/googletest-build/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -488,7 +500,7 @@ build _deps/googletest-build/googletest/install/local: phony _deps/googletest-bu
 # Utility command for install/strip
 
 build _deps/googletest-build/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/googletest-build/googletest/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -497,7 +509,7 @@ build _deps/googletest-build/googletest/install/strip: phony _deps/googletest-bu
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -505,7 +517,7 @@ build _deps/googletest-build/googletest/install/strip: phony _deps/googletest-bu
 # Utility command for test
 
 build _deps/gsl-build/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -517,7 +529,7 @@ build _deps/gsl-build/test: phony _deps/gsl-build/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build _deps/gsl-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -528,7 +540,7 @@ build _deps/gsl-build/edit_cache: phony _deps/gsl-build/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build _deps/gsl-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -546,7 +558,7 @@ build _deps/gsl-build/list_install_components: phony
 # Utility command for install
 
 build _deps/gsl-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/gsl-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -558,7 +570,7 @@ build _deps/gsl-build/install: phony _deps/gsl-build/CMakeFiles/install.util
 # Utility command for install/local
 
 build _deps/gsl-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/gsl-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -570,7 +582,7 @@ build _deps/gsl-build/install/local: phony _deps/gsl-build/CMakeFiles/install/lo
 # Utility command for install/strip
 
 build _deps/gsl-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/gsl-build/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -579,7 +591,7 @@ build _deps/gsl-build/install/strip: phony _deps/gsl-build/CMakeFiles/install/st
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src/CMakeLists.txt
 # =============================================================================
 
 
@@ -587,7 +599,7 @@ build _deps/gsl-build/install/strip: phony _deps/gsl-build/CMakeFiles/install/st
 # Utility command for test
 
 build _deps/gsl-build/include/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -599,7 +611,7 @@ build _deps/gsl-build/include/test: phony _deps/gsl-build/include/CMakeFiles/tes
 # Utility command for edit_cache
 
 build _deps/gsl-build/include/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -610,7 +622,7 @@ build _deps/gsl-build/include/edit_cache: phony _deps/gsl-build/include/CMakeFil
 # Utility command for rebuild_cache
 
 build _deps/gsl-build/include/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -628,7 +640,7 @@ build _deps/gsl-build/include/list_install_components: phony
 # Utility command for install
 
 build _deps/gsl-build/include/CMakeFiles/install.util: CUSTOM_COMMAND _deps/gsl-build/include/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -640,7 +652,7 @@ build _deps/gsl-build/include/install: phony _deps/gsl-build/include/CMakeFiles/
 # Utility command for install/local
 
 build _deps/gsl-build/include/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/gsl-build/include/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -652,7 +664,7 @@ build _deps/gsl-build/include/install/local: phony _deps/gsl-build/include/CMake
 # Utility command for install/strip
 
 build _deps/gsl-build/include/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/gsl-build/include/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -661,7 +673,7 @@ build _deps/gsl-build/include/install/strip: phony _deps/gsl-build/include/CMake
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -673,29 +685,35 @@ build _deps/gsl-build/include/install/strip: phony _deps/gsl-build/include/CMake
 
 build cmake_object_order_depends_target_common: phony || .
 
-build common/CMakeFiles/common.dir/progargs.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/common/progargs.cpp || cmake_object_order_depends_target_common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/common/progargs.cpp -- 
+build common/CMakeFiles/common.dir/progargs.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/progargs.cpp || cmake_object_order_depends_target_common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/progargs.cpp -- 
   DEP_FILE = common/CMakeFiles/common.dir/progargs.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src/include
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src/include
   OBJECT_DIR = common/CMakeFiles/common.dir
   OBJECT_FILE_DIR = common/CMakeFiles/common.dir
+  TARGET_COMPILE_PDB = common/CMakeFiles/common.dir/common.pdb
+  TARGET_PDB = common/libcommon.pdb
 
-build common/CMakeFiles/common.dir/binary.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/common/binary.cpp || cmake_object_order_depends_target_common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/common/binary.cpp -- 
+build common/CMakeFiles/common.dir/binary.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/binary.cpp || cmake_object_order_depends_target_common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/binary.cpp -- 
   DEP_FILE = common/CMakeFiles/common.dir/binary.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src/include
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src/include
   OBJECT_DIR = common/CMakeFiles/common.dir
   OBJECT_FILE_DIR = common/CMakeFiles/common.dir
+  TARGET_COMPILE_PDB = common/CMakeFiles/common.dir/common.pdb
+  TARGET_PDB = common/libcommon.pdb
 
-build common/CMakeFiles/common.dir/metadata.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/common/metadata.cpp || cmake_object_order_depends_target_common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/common/metadata.cpp -- 
+build common/CMakeFiles/common.dir/metadata.cpp.o: CXX_COMPILER__common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/metadata.cpp || cmake_object_order_depends_target_common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/metadata.cpp -- 
   DEP_FILE = common/CMakeFiles/common.dir/metadata.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-src/include
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-src/include
   OBJECT_DIR = common/CMakeFiles/common.dir
   OBJECT_FILE_DIR = common/CMakeFiles/common.dir
+  TARGET_COMPILE_PDB = common/CMakeFiles/common.dir/common.pdb
+  TARGET_PDB = common/libcommon.pdb
 
 
 # =============================================================================
@@ -711,15 +729,16 @@ build common/libcommon.a: CXX_STATIC_LIBRARY_LINKER__common_Debug common/CMakeFi
   OBJECT_DIR = common/CMakeFiles/common.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = common/CMakeFiles/common.dir/common.pdb
   TARGET_FILE = common/libcommon.a
-  TARGET_PDB = common.a.dbg
+  TARGET_PDB = common/libcommon.pdb
 
 
 #############################################
 # Utility command for test
 
 build common/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -731,7 +750,7 @@ build common/test: phony common/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build common/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -742,7 +761,7 @@ build common/edit_cache: phony common/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build common/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -760,7 +779,7 @@ build common/list_install_components: phony
 # Utility command for install
 
 build common/CMakeFiles/install.util: CUSTOM_COMMAND common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -772,7 +791,7 @@ build common/install: phony common/CMakeFiles/install.util
 # Utility command for install/local
 
 build common/CMakeFiles/install/local.util: CUSTOM_COMMAND common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -784,7 +803,7 @@ build common/install/local: phony common/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build common/CMakeFiles/install/strip.util: CUSTOM_COMMAND common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -793,7 +812,7 @@ build common/install/strip: phony common/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -805,13 +824,15 @@ build common/install/strip: phony common/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_imgaos: phony || .
 
-build imgaos/CMakeFiles/imgaos.dir/imageaos.cpp.o: CXX_COMPILER__imgaos_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/imgaos/imageaos.cpp || cmake_object_order_depends_target_imgaos
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/imgaos/imageaos.cpp -- 
+build imgaos/CMakeFiles/imgaos.dir/imageaos.cpp.o: CXX_COMPILER__imgaos_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgaos/imageaos.cpp || cmake_object_order_depends_target_imgaos
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgaos/imageaos.cpp -- 
   DEP_FILE = imgaos/CMakeFiles/imgaos.dir/imageaos.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/.
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/.
   OBJECT_DIR = imgaos/CMakeFiles/imgaos.dir
   OBJECT_FILE_DIR = imgaos/CMakeFiles/imgaos.dir
+  TARGET_COMPILE_PDB = imgaos/CMakeFiles/imgaos.dir/imgaos.pdb
+  TARGET_PDB = imgaos/libimgaos.pdb
 
 
 # =============================================================================
@@ -827,15 +848,16 @@ build imgaos/libimgaos.a: CXX_STATIC_LIBRARY_LINKER__imgaos_Debug imgaos/CMakeFi
   OBJECT_DIR = imgaos/CMakeFiles/imgaos.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = imgaos/CMakeFiles/imgaos.dir/imgaos.pdb
   TARGET_FILE = imgaos/libimgaos.a
-  TARGET_PDB = imgaos.a.dbg
+  TARGET_PDB = imgaos/libimgaos.pdb
 
 
 #############################################
 # Utility command for test
 
 build imgaos/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -847,7 +869,7 @@ build imgaos/test: phony imgaos/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build imgaos/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -858,7 +880,7 @@ build imgaos/edit_cache: phony imgaos/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build imgaos/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -876,7 +898,7 @@ build imgaos/list_install_components: phony
 # Utility command for install
 
 build imgaos/CMakeFiles/install.util: CUSTOM_COMMAND imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -888,7 +910,7 @@ build imgaos/install: phony imgaos/CMakeFiles/install.util
 # Utility command for install/local
 
 build imgaos/CMakeFiles/install/local.util: CUSTOM_COMMAND imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -900,7 +922,7 @@ build imgaos/install/local: phony imgaos/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build imgaos/CMakeFiles/install/strip.util: CUSTOM_COMMAND imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -909,7 +931,7 @@ build imgaos/install/strip: phony imgaos/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -921,13 +943,15 @@ build imgaos/install/strip: phony imgaos/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_imagesoa: phony || .
 
-build imgsoa/CMakeFiles/imagesoa.dir/imagesoa.cpp.o: CXX_COMPILER__imagesoa_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/imgsoa/imagesoa.cpp || cmake_object_order_depends_target_imagesoa
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/imgsoa/imagesoa.cpp -- 
+build imgsoa/CMakeFiles/imagesoa.dir/imagesoa.cpp.o: CXX_COMPILER__imagesoa_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgsoa/imagesoa.cpp || cmake_object_order_depends_target_imagesoa
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgsoa/imagesoa.cpp -- 
   DEP_FILE = imgsoa/CMakeFiles/imagesoa.dir/imagesoa.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/.
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/.
   OBJECT_DIR = imgsoa/CMakeFiles/imagesoa.dir
   OBJECT_FILE_DIR = imgsoa/CMakeFiles/imagesoa.dir
+  TARGET_COMPILE_PDB = imgsoa/CMakeFiles/imagesoa.dir/imagesoa.pdb
+  TARGET_PDB = imgsoa/libimagesoa.pdb
 
 
 # =============================================================================
@@ -943,15 +967,16 @@ build imgsoa/libimagesoa.a: CXX_STATIC_LIBRARY_LINKER__imagesoa_Debug imgsoa/CMa
   OBJECT_DIR = imgsoa/CMakeFiles/imagesoa.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = imgsoa/CMakeFiles/imagesoa.dir/imagesoa.pdb
   TARGET_FILE = imgsoa/libimagesoa.a
-  TARGET_PDB = imagesoa.a.dbg
+  TARGET_PDB = imgsoa/libimagesoa.pdb
 
 
 #############################################
 # Utility command for test
 
 build imgsoa/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -963,7 +988,7 @@ build imgsoa/test: phony imgsoa/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build imgsoa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -974,7 +999,7 @@ build imgsoa/edit_cache: phony imgsoa/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build imgsoa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -992,7 +1017,7 @@ build imgsoa/list_install_components: phony
 # Utility command for install
 
 build imgsoa/CMakeFiles/install.util: CUSTOM_COMMAND imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1004,7 +1029,7 @@ build imgsoa/install: phony imgsoa/CMakeFiles/install.util
 # Utility command for install/local
 
 build imgsoa/CMakeFiles/install/local.util: CUSTOM_COMMAND imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1016,7 +1041,7 @@ build imgsoa/install/local: phony imgsoa/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build imgsoa/CMakeFiles/install/strip.util: CUSTOM_COMMAND imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1025,7 +1050,7 @@ build imgsoa/install/strip: phony imgsoa/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1033,7 +1058,7 @@ build imgsoa/install/strip: phony imgsoa/CMakeFiles/install/strip.util
 # Utility command for test
 
 build imtool-aos/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1045,7 +1070,7 @@ build imtool-aos/test: phony imtool-aos/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build imtool-aos/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1056,7 +1081,7 @@ build imtool-aos/edit_cache: phony imtool-aos/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build imtool-aos/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1074,7 +1099,7 @@ build imtool-aos/list_install_components: phony
 # Utility command for install
 
 build imtool-aos/CMakeFiles/install.util: CUSTOM_COMMAND imtool-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1086,7 +1111,7 @@ build imtool-aos/install: phony imtool-aos/CMakeFiles/install.util
 # Utility command for install/local
 
 build imtool-aos/CMakeFiles/install/local.util: CUSTOM_COMMAND imtool-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1098,7 +1123,7 @@ build imtool-aos/install/local: phony imtool-aos/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build imtool-aos/CMakeFiles/install/strip.util: CUSTOM_COMMAND imtool-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1107,7 +1132,7 @@ build imtool-aos/install/strip: phony imtool-aos/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1115,7 +1140,7 @@ build imtool-aos/install/strip: phony imtool-aos/CMakeFiles/install/strip.util
 # Utility command for test
 
 build imtool-soa/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1127,7 +1152,7 @@ build imtool-soa/test: phony imtool-soa/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build imtool-soa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1138,7 +1163,7 @@ build imtool-soa/edit_cache: phony imtool-soa/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build imtool-soa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1156,7 +1181,7 @@ build imtool-soa/list_install_components: phony
 # Utility command for install
 
 build imtool-soa/CMakeFiles/install.util: CUSTOM_COMMAND imtool-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1168,7 +1193,7 @@ build imtool-soa/install: phony imtool-soa/CMakeFiles/install.util
 # Utility command for install/local
 
 build imtool-soa/CMakeFiles/install/local.util: CUSTOM_COMMAND imtool-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1180,7 +1205,7 @@ build imtool-soa/install/local: phony imtool-soa/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build imtool-soa/CMakeFiles/install/strip.util: CUSTOM_COMMAND imtool-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1189,7 +1214,7 @@ build imtool-soa/install/strip: phony imtool-soa/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -1201,37 +1226,45 @@ build imtool-soa/install/strip: phony imtool-soa/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_utest-common: phony || cmake_object_order_depends_target_common cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
-build utest-common/CMakeFiles/utest-common.dir/writeppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/writeppm_test.cpp || cmake_object_order_depends_target_utest-common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/utest-common/writeppm_test.cpp -- 
+build utest-common/CMakeFiles/utest-common.dir/writeppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/writeppm_test.cpp || cmake_object_order_depends_target_utest-common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/writeppm_test.cpp -- 
   DEP_FILE = utest-common/CMakeFiles/utest-common.dir/writeppm_test.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = utest-common/CMakeFiles/utest-common.dir
   OBJECT_FILE_DIR = utest-common/CMakeFiles/utest-common.dir
+  TARGET_COMPILE_PDB = utest-common/CMakeFiles/utest-common.dir/
+  TARGET_PDB = utest-common/utest-common.pdb
 
-build utest-common/CMakeFiles/utest-common.dir/readppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/readppm_test.cpp || cmake_object_order_depends_target_utest-common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/utest-common/readppm_test.cpp -- 
+build utest-common/CMakeFiles/utest-common.dir/readppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/readppm_test.cpp || cmake_object_order_depends_target_utest-common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/readppm_test.cpp -- 
   DEP_FILE = utest-common/CMakeFiles/utest-common.dir/readppm_test.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = utest-common/CMakeFiles/utest-common.dir
   OBJECT_FILE_DIR = utest-common/CMakeFiles/utest-common.dir
+  TARGET_COMPILE_PDB = utest-common/CMakeFiles/utest-common.dir/
+  TARGET_PDB = utest-common/utest-common.pdb
 
-build utest-common/CMakeFiles/utest-common.dir/metadata_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/metadata_test.cpp || cmake_object_order_depends_target_utest-common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/utest-common/metadata_test.cpp -- 
+build utest-common/CMakeFiles/utest-common.dir/metadata_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/metadata_test.cpp || cmake_object_order_depends_target_utest-common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/metadata_test.cpp -- 
   DEP_FILE = utest-common/CMakeFiles/utest-common.dir/metadata_test.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = utest-common/CMakeFiles/utest-common.dir
   OBJECT_FILE_DIR = utest-common/CMakeFiles/utest-common.dir
+  TARGET_COMPILE_PDB = utest-common/CMakeFiles/utest-common.dir/
+  TARGET_PDB = utest-common/utest-common.pdb
 
-build utest-common/CMakeFiles/utest-common.dir/writecppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/writecppm_test.cpp || cmake_object_order_depends_target_utest-common
-  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/CLionProjects/group_project_ca/utest-common/writecppm_test.cpp -- 
+build utest-common/CMakeFiles/utest-common.dir/writecppm_test.cpp.o: CXX_COMPILER__utest-common_unscanned_Debug /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/writecppm_test.cpp || cmake_object_order_depends_target_utest-common
+  CODE_CHECK = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E __run_co_compile --tidy="clang-tidy;-format-style=file;-header-filter=.;--extra-arg-before=--driver-mode=g++" --source=/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/writecppm_test.cpp -- 
   DEP_FILE = utest-common/CMakeFiles/utest-common.dir/writecppm_test.cpp.o.d
   FLAGS = -g -std=c++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -Wall -Wextra -Werror -pedantic -pedantic-errors -Wconversion -Wsign-conversion
-  INCLUDES = -I/Users/shriyasingh/CLionProjects/group_project_ca/PUBLIC -I/Users/shriyasingh/CLionProjects/group_project_ca/. -I/Users/shriyasingh/CLionProjects/group_project_ca/common -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-src/googletest
+  INCLUDES = -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/PUBLIC -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/. -I/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-src/googletest
   OBJECT_DIR = utest-common/CMakeFiles/utest-common.dir
   OBJECT_FILE_DIR = utest-common/CMakeFiles/utest-common.dir
+  TARGET_COMPILE_PDB = utest-common/CMakeFiles/utest-common.dir/
+  TARGET_PDB = utest-common/utest-common.pdb
 
 
 # =============================================================================
@@ -1247,15 +1280,16 @@ build utest-common/utest-common: CXX_EXECUTABLE_LINKER__utest-common_Debug utest
   OBJECT_DIR = utest-common/CMakeFiles/utest-common.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = utest-common/CMakeFiles/utest-common.dir/
   TARGET_FILE = utest-common/utest-common
-  TARGET_PDB = utest-common.dbg
+  TARGET_PDB = utest-common/utest-common.pdb
 
 
 #############################################
 # Utility command for test
 
 build utest-common/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1267,7 +1301,7 @@ build utest-common/test: phony utest-common/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build utest-common/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1278,7 +1312,7 @@ build utest-common/edit_cache: phony utest-common/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build utest-common/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1296,7 +1330,7 @@ build utest-common/list_install_components: phony
 # Utility command for install
 
 build utest-common/CMakeFiles/install.util: CUSTOM_COMMAND utest-common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1308,7 +1342,7 @@ build utest-common/install: phony utest-common/CMakeFiles/install.util
 # Utility command for install/local
 
 build utest-common/CMakeFiles/install/local.util: CUSTOM_COMMAND utest-common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1320,7 +1354,7 @@ build utest-common/install/local: phony utest-common/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build utest-common/CMakeFiles/install/strip.util: CUSTOM_COMMAND utest-common/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1329,7 +1363,7 @@ build utest-common/install/strip: phony utest-common/CMakeFiles/install/strip.ut
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1337,7 +1371,7 @@ build utest-common/install/strip: phony utest-common/CMakeFiles/install/strip.ut
 # Utility command for test
 
 build utest-imgaos/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1349,7 +1383,7 @@ build utest-imgaos/test: phony utest-imgaos/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build utest-imgaos/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1360,7 +1394,7 @@ build utest-imgaos/edit_cache: phony utest-imgaos/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build utest-imgaos/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1378,7 +1412,7 @@ build utest-imgaos/list_install_components: phony
 # Utility command for install
 
 build utest-imgaos/CMakeFiles/install.util: CUSTOM_COMMAND utest-imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1390,7 +1424,7 @@ build utest-imgaos/install: phony utest-imgaos/CMakeFiles/install.util
 # Utility command for install/local
 
 build utest-imgaos/CMakeFiles/install/local.util: CUSTOM_COMMAND utest-imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1402,7 +1436,7 @@ build utest-imgaos/install/local: phony utest-imgaos/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build utest-imgaos/CMakeFiles/install/strip.util: CUSTOM_COMMAND utest-imgaos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1411,7 +1445,7 @@ build utest-imgaos/install/strip: phony utest-imgaos/CMakeFiles/install/strip.ut
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1419,7 +1453,7 @@ build utest-imgaos/install/strip: phony utest-imgaos/CMakeFiles/install/strip.ut
 # Utility command for test
 
 build utest-imgsoa/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1431,7 +1465,7 @@ build utest-imgsoa/test: phony utest-imgsoa/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build utest-imgsoa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1442,7 +1476,7 @@ build utest-imgsoa/edit_cache: phony utest-imgsoa/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build utest-imgsoa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1460,7 +1494,7 @@ build utest-imgsoa/list_install_components: phony
 # Utility command for install
 
 build utest-imgsoa/CMakeFiles/install.util: CUSTOM_COMMAND utest-imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1472,7 +1506,7 @@ build utest-imgsoa/install: phony utest-imgsoa/CMakeFiles/install.util
 # Utility command for install/local
 
 build utest-imgsoa/CMakeFiles/install/local.util: CUSTOM_COMMAND utest-imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1484,7 +1518,7 @@ build utest-imgsoa/install/local: phony utest-imgsoa/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build utest-imgsoa/CMakeFiles/install/strip.util: CUSTOM_COMMAND utest-imgsoa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1493,7 +1527,7 @@ build utest-imgsoa/install/strip: phony utest-imgsoa/CMakeFiles/install/strip.ut
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1501,7 +1535,7 @@ build utest-imgsoa/install/strip: phony utest-imgsoa/CMakeFiles/install/strip.ut
 # Utility command for test
 
 build ftest-aos/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1513,7 +1547,7 @@ build ftest-aos/test: phony ftest-aos/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build ftest-aos/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1524,7 +1558,7 @@ build ftest-aos/edit_cache: phony ftest-aos/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ftest-aos/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1542,7 +1576,7 @@ build ftest-aos/list_install_components: phony
 # Utility command for install
 
 build ftest-aos/CMakeFiles/install.util: CUSTOM_COMMAND ftest-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1554,7 +1588,7 @@ build ftest-aos/install: phony ftest-aos/CMakeFiles/install.util
 # Utility command for install/local
 
 build ftest-aos/CMakeFiles/install/local.util: CUSTOM_COMMAND ftest-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1566,7 +1600,7 @@ build ftest-aos/install/local: phony ftest-aos/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build ftest-aos/CMakeFiles/install/strip.util: CUSTOM_COMMAND ftest-aos/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1575,7 +1609,7 @@ build ftest-aos/install/strip: phony ftest-aos/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt
+# /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt
 # =============================================================================
 
 
@@ -1583,7 +1617,7 @@ build ftest-aos/install/strip: phony ftest-aos/CMakeFiles/install/strip.util
 # Utility command for test
 
 build ftest-soa/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -1595,7 +1629,7 @@ build ftest-soa/test: phony ftest-soa/CMakeFiles/test.util
 # Utility command for edit_cache
 
 build ftest-soa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1606,7 +1640,7 @@ build ftest-soa/edit_cache: phony ftest-soa/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build ftest-soa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/CLionProjects/group_project_ca -B/Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024 -B/Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1624,7 +1658,7 @@ build ftest-soa/list_install_components: phony
 # Utility command for install
 
 build ftest-soa/CMakeFiles/install.util: CUSTOM_COMMAND ftest-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1636,7 +1670,7 @@ build ftest-soa/install: phony ftest-soa/CMakeFiles/install.util
 # Utility command for install/local
 
 build ftest-soa/CMakeFiles/install/local.util: CUSTOM_COMMAND ftest-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1648,7 +1682,7 @@ build ftest-soa/install/local: phony ftest-soa/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build ftest-soa/CMakeFiles/install/strip.util: CUSTOM_COMMAND ftest-soa/all
-  COMMAND = cd /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1694,112 +1728,112 @@ build utest-common: phony utest-common/utest-common
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug
 
 build all: phony _deps/googletest-build/all _deps/gsl-build/all common/all imgaos/all imgsoa/all imtool-aos/all imtool-soa/all utest-common/all utest-imgaos/all utest-imgsoa/all ftest-aos/all ftest-soa/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build
 
 build _deps/googletest-build/all: phony _deps/googletest-build/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googlemock
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googlemock
 
 build _deps/googletest-build/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a _deps/googletest-build/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/googletest-build/googletest
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/googletest-build/googletest
 
 build _deps/googletest-build/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build
 
 build _deps/gsl-build/all: phony _deps/gsl-build/include/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/_deps/gsl-build/include
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/_deps/gsl-build/include
 
 build _deps/gsl-build/include/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/common
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/common
 
 build common/all: phony common/libcommon.a
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-aos
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-aos
 
 build ftest-aos/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/ftest-soa
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/ftest-soa
 
 build ftest-soa/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgaos
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgaos
 
 build imgaos/all: phony imgaos/libimgaos.a
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imgsoa
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imgsoa
 
 build imgsoa/all: phony imgsoa/libimagesoa.a
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-aos
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-aos
 
 build imtool-aos/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/imtool-soa
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/imtool-soa
 
 build imtool-soa/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-common
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-common
 
 build utest-common/all: phony utest-common/utest-common
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgaos
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgaos
 
 build utest-imgaos/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shriyasingh/CLionProjects/group_project_ca/cmake-build-debug/utest-imgsoa
+# Folder: /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/cmake-build-debug/utest-imgsoa
 
 build utest-imgsoa/all: phony
 
@@ -1810,14 +1844,14 @@ build utest-imgsoa/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/common/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/ftest-aos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/ftest-soa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imgaos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imgsoa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imtool-aos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imtool-soa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-imgaos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-imgsoa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake _deps/gsl-src/CMakeLists.txt _deps/gsl-src/cmake/guidelineSupportLibrary.cmake _deps/gsl-src/include/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/ftest-aos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/ftest-soa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgaos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgsoa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imtool-aos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imtool-soa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-imgaos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-imgsoa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake _deps/gsl-src/CMakeLists.txt _deps/gsl-src/cmake/guidelineSupportLibrary.cmake _deps/gsl-src/include/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/shriyasingh/CLionProjects/group_project_ca/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/common/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/ftest-aos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/ftest-soa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imgaos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imgsoa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imtool-aos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/imtool-soa/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-common/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-imgaos/CMakeLists.txt /Users/shriyasingh/CLionProjects/group_project_ca/utest-imgsoa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake _deps/gsl-src/CMakeLists.txt _deps/gsl-src/cmake/guidelineSupportLibrary.cmake _deps/gsl-src/include/CMakeLists.txt: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FetchContent/CMakeLists.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindGit.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/GNUInstallDirs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/common/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/ftest-aos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/ftest-soa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgaos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imgsoa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imtool-aos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/imtool-soa/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-common/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-imgaos/CMakeLists.txt /Users/shriyasingh/Desktop/architecture_project_2024/Architecture_Project_2024/utest-imgsoa/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake _deps/googletest-src/CMakeLists.txt _deps/googletest-src/googlemock/CMakeLists.txt _deps/googletest-src/googlemock/cmake/gmock.pc.in _deps/googletest-src/googlemock/cmake/gmock_main.pc.in _deps/googletest-src/googletest/CMakeLists.txt _deps/googletest-src/googletest/cmake/Config.cmake.in _deps/googletest-src/googletest/cmake/gtest.pc.in _deps/googletest-src/googletest/cmake/gtest_main.pc.in _deps/googletest-src/googletest/cmake/internal_utils.cmake _deps/gsl-src/CMakeLists.txt _deps/gsl-src/cmake/guidelineSupportLibrary.cmake _deps/gsl-src/include/CMakeLists.txt: phony
 
 
 #############################################
