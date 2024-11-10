@@ -54,7 +54,6 @@ TEST(BinaryIO, WritePPM) {
     // Step 5: Check for errors during file reading
     ASSERT_FALSE(file.fail()) << "Error reading pixel data from file";
 
-    // Step 6: Close and remove the test file
     file.close();
     std::remove(test_file_path.c_str());
 }

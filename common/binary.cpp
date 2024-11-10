@@ -215,7 +215,7 @@ CompressedImage read_cppm(const std::string& file_path) {
     // Read the CPPM header
     std::string magic;
     file >> magic;
-    if (magic != "CPPM") {
+    if (magic != "C6") {
         throw std::runtime_error("Error: Invalid CPPM format");
     }
     file >> image.width >> image.height >> image.max_color;
