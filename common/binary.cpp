@@ -10,80 +10,41 @@ constexpr int MaxByteValue = 255;
 
 Image read_ppm(const std::string& file_path) {
     std::ifstream file(file_path, std::ios::binary);
-    if (!file) {
-        throw std::runtime_error("Error: Could not open file " + file_path);
-    }
+    if (!file) { throw std::runtime_error("Error: Could not open file " + file_path);}
     std::string magic_number;
     file >> magic_number;
-    if (magic_number != "P6") {
-        throw std::runtime_error("Error: Invalid PPM format (not P6)");
-    }
+    if (magic_number != "P6") {throw std::runtime_error("Error: Invalid PPM format (not P6)");}
     Image image;
     file >> image.width >> image.height >> image.max_color_value;
-    if (image.width <= 0 || image.height <= 0 || image.max_color_value <= 0) {
-        throw std::runtime_error("Error: Invalid width, height, or max color value in PPM header");
-    }
+    if (image.width <= 0 || image.height <= 0 || image.max_color_value <= 0) {throw std::runtime_error("Error: Invalid width, height, or max color value in PPM header");}
     file.ignore();
-    size_t total_pixels = static_cast<size_t>(image.width) * static_cast<size_t>(image.height);
+    const size_t total_pixels = static_cast<size_t>(image.width) * static_cast<size_t>(image.height);
     image.pixels.resize(total_pixels);
     if (image.max_color_value < MaxByteValue) {
         for (size_t i = 0; i < total_pixels; ++i) {
             uint8_t rgb[3];
             file.read(reinterpret_cast<char*>(rgb), 3);
-            if (file.gcount() != 3) {
-                throw std::runtime_error("Error reading pixel data for 8-bit color with scaling");
-            }
-            // Debug output for each pixel
-            std::cout << "Pixel " << i << " - R: " << static_cast<int>(rgb[0])
-                      << " G: " << static_cast<int>(rgb[1])
-                      << " B: " << static_cast<int>(rgb[2]) << std::endl;
-
-            image.pixels[i] = {
-                static_cast<uint8_t>(rgb[0] * MaxByteValue / image.max_color_value),
-                static_cast<uint8_t>(rgb[1] * MaxByteValue / image.max_color_value),
-                static_cast<uint8_t>(rgb[2] * MaxByteValue / image.max_color_value)
-            };
+            if (file.gcount() != 3) {throw std::runtime_error("Error reading pixel data for 8-bit color with scaling");}
+            image.pixels[i] = {static_cast<uint8_t>(rgb[0] * MaxByteValue / image.max_color_value), static_cast<uint8_t>(rgb[1] * MaxByteValue / image.max_color_value), static_cast<uint8_t>(rgb[2] * MaxByteValue / image.max_color_value)};
         }
     } else if (image.max_color_value == MaxByteValue) {
         for (size_t i = 0; i < total_pixels; ++i) {
             uint8_t rgb[3];
             file.read(reinterpret_cast<char*>(rgb), 3);
-            if (file.gcount() != 3) {
-                throw std::runtime_error("Error reading pixel data for 8-bit color without scaling");
-            }
-            std::cout << "Pixel " << i << " - R: " << static_cast<int>(rgb[0])
-                      << " G: " << static_cast<int>(rgb[1])
-                      << " B: " << static_cast<int>(rgb[2]) << std::endl;
-
+            if (file.gcount() != 3) {throw std::runtime_error("Error reading pixel data for 8-bit color without scaling");}
             image.pixels[i] = { rgb[0], rgb[1], rgb[2] };
         }
     } else {
         for (size_t i = 0; i < total_pixels; ++i) {
-            uint8_t r_high, r_low, g_high, g_low, b_high, b_low;
-            file.read(reinterpret_cast<char*>(&r_high), 1);
-            file.read(reinterpret_cast<char*>(&r_low), 1);
-            file.read(reinterpret_cast<char*>(&g_high), 1);
-            file.read(reinterpret_cast<char*>(&g_low), 1);
-            file.read(reinterpret_cast<char*>(&b_high), 1);
-            file.read(reinterpret_cast<char*>(&b_low), 1);
-            if (file.gcount() != 1) {
-                throw std::runtime_error("Error reading pixel data for 16-bit color");
-            }
-            uint16_t r = static_cast<uint16_t>((static_cast<uint16_t>(r_high) << 8) | r_low);
-            uint16_t g = static_cast<uint16_t>((static_cast<uint16_t>(g_high) << 8) | g_low);
-            uint16_t b = static_cast<uint16_t>((static_cast<uint16_t>(b_high) << 8) | b_low);
-            std::cout << "Pixel " << i << " - R: " << r << " G: " << g << " B: " << b << std::endl;
-            image.pixels[i] = {
-                static_cast<uint8_t>(r * MaxByteValue / image.max_color_value),
-                static_cast<uint8_t>(g * MaxByteValue / image.max_color_value),
-                static_cast<uint8_t>(b * MaxByteValue / image.max_color_value)
-            };
+            uint8_t rgb_bytes[6];
+            file.read(reinterpret_cast<char*>(rgb_bytes), 6);
+            const auto [r_high, r_low, g_high, g_low, b_high, b_low] = std::array<uint8_t, 6>{rgb_bytes[0], rgb_bytes[1], rgb_bytes[2], rgb_bytes[3], rgb_bytes[4], rgb_bytes[5]};
+            if (file.gcount() != 1) {throw std::runtime_error("Error reading pixel data for 16-bit color");}
+            const auto [r, g, b] = std::tuple{static_cast<uint16_t>((static_cast<uint16_t>(r_high) << 8) | r_low),static_cast<uint16_t>((static_cast<uint16_t>(g_high) << 8) | g_low),static_cast<uint16_t>((static_cast<uint16_t>(b_high) << 8) | b_low)};
+            image.pixels[i] = {static_cast<uint8_t>(r * MaxByteValue / image.max_color_value),static_cast<uint8_t>(g * MaxByteValue / image.max_color_value),static_cast<uint8_t>(b * MaxByteValue / image.max_color_value)};
         }
     }
-    if (file.fail()) {
-        throw std::runtime_error("Error: Unexpected end of file or read error");
-    }
-    file.close();
+    if (file.fail()) {throw std::runtime_error("Error: Unexpected end of file or read error");}
     return image;
 }
 
