@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/kalyani/Documents/CompArch/Architecture_Project_2024 Select CMakeLists.txt
