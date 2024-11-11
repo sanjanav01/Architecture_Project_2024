@@ -1,0 +1,26 @@
+# ninja log v6
+5	884	1730847021314054589	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	6449442b29345723
+936	989	1730847022245390414	imgsoa/CMakeFiles/imagesoa.dir/imagesoa.cpp.o	113b8440335d0f67
+885	936	1730847022194916779	imgaos/CMakeFiles/imgaos.dir/imageaos.cpp.o	6dd1cc5aca9722cc
+5	582	1730847021314508788	common/CMakeFiles/common.dir/progargs.cpp.o	d0ab423408714899
+11	3774	1731264571789306311	utest-common/CMakeFiles/utest-common.dir/readppm_test.cpp.o	1aee0d83cc0b577b
+6	3578	1730848101705811484	utest-common/CMakeFiles/utest-common.dir/writeppm_test.cpp.o	93b3c235098d0b1f
+3	2099	1730847021312527996	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	fe75a1cf3cbdc8df
+1297	1345	1730847022606415572	imgsoa/libimagesoa.a	dd28043fe15b945c
+9	3745	1730847142593625911	utest-common/CMakeFiles/utest-common.dir/metadata_test.cpp.o	7220b19b6ccadefd
+9	3749	1730847142593882280	utest-common/CMakeFiles/utest-common.dir/writecppm_test.cpp.o	d81eb5d47d670378
+1255	1297	1730847022564627211	imgaos/libimgaos.a	21bb01cacb9e8414
+4	1416	1730847021313316021	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	e128ac398d333c0
+7	2163	1730847021316067046	common/CMakeFiles/common.dir/metadata.cpp.o	ea653f603f01a39
+2099	2151	1730847023408626934	lib/libgtest.a	f3e2e0260090b16a
+2151	2183	1730847023460597871	lib/libgtest_main.a	173d721be4f94a5c
+2183	2208	1730847023492054119	lib/libgmock_main.a	9b9bd9e61e263a61
+582	1428	1730847021891415648	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	22353512fa3ea1a1
+2151	2183	1730847023459936593	lib/libgmock.a	6e71069340886522
+10	3661	1731267763234846914	common/CMakeFiles/common.dir/binary.cpp.o	60c5ebfe43138ede
+3662	3692	1731267766886409476	common/libcommon.a	8beb528170c04525
+3692	3751	1731267766917068647	utest-common/utest-common	b73f7a670e9d4a5c
+7	2913	1731268204827605895	utest-common/CMakeFiles/utest-common.dir/test_progargs.cpp.o	a0aff76bf8879f82
+6	3299	1731268204827124205	common/CMakeFiles/common.dir/progargs.cpp.o	d0ab423408714899
+3299	3341	1731268208119809852	common/libcommon.a	8beb528170c04525
+3341	3415	1731268208161306751	utest-common/utest-common	792cab064fd6202c
