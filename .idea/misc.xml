@@ -7,8 +7,14 @@
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
     <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="13" type="long" />
   </component>
+<<<<<<< HEAD
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+=======
+  <component name="CMakeWorkspace">
+    <contentRoot DIR="$PROJECT_DIR$" />
+  </component>
+>>>>>>> main
 </project>
